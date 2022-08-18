@@ -1,0 +1,133 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FFE9CE;
+}
+
+.body{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
+    font-family: 'Georgia';
+}
+
+.titulo{
+    grid-column: 1/1;
+    font-size: 5rem;
+    color: #ffd7a6;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: 300;
+}
+
+/* Menu */
+.menu{
+    grid-column: 1/5;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #3777FF;
+}
+
+.menu a:hover{
+    color: #56CBF9;
+}
+
+.menu a:active{
+    color: black;
+}
+
+.itensMenu{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Section - Inicio */
+.secaoSobre{
+    grid-column: 2/5;
+    margin: 50px 0px;
+}
+
+.sobre{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Cursos */
+
+.secaoCursos{
+    grid-column: 3/5;
+    margin: 50px 0px;
+}
+
+.titCursos{
+    padding-top: 100px;
+    grid-column: 1/2;
+}
+
+.cursos{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.cursos li{
+    list-style-type: circle;
+}
+
+/* Contatos */
+
+.secaoContatos{
+    grid-column: 3/4;
+    margin: 50px 0px;
+    background-color: #FFB5C2;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+}
+
+.contatos{
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contatos li{
+    list-style-type: none;
+}
+
+.textContatos:hover{
+    color: #3777FF;
+    text-decoration: underline #3777FF 2px;
+}
+.textContatos:visited{
+    color: #1d50be
+}
+
+/* Footer */
+.footer{
+    margin: 0x 0px 10px 0px;
+    padding: 10px;
+    grid-column: 1/5;
+    background-color: #000;
+}
+.footerP{
+    font-family: monospace;
+    text-align: center;
+    color: #fff;
+}
+
+svg{
+    width: 8%;
+}
+svg:hover{
+    width: 9%;
+}
