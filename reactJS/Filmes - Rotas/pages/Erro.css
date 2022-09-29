@@ -1,0 +1,28 @@
+body{
+    background-color: #000;
+    color: white;
+}
+
+.erro{
+    margin: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.divErro{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 300px 50px 300px;
+}
+
+.linkErro{
+    text-decoration: none;
+    color: white;
+    margin-top: 60vh;
+    text-align: right;
+    cursor: pointer;
+    font-size: 25px;
+}
+.linkErro:hover{
+    font-size: 30px;
+}
