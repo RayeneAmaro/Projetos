@@ -1,0 +1,93 @@
+body{
+    background-color: #ddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, p, article, img, Link {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding: 5px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+.titulo{
+    background-color: rgba(220, 25, 96, 0.533);
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.titulo:hover{
+    background-color: red;
+}
+
+.tituloFilme{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin: 35px;
+}
+
+.titLink{
+    text-decoration: none;
+}
+
+.img{
+    width: 59.6vw;
+    height: 50vh;
+}
+
+.imgFilme{
+    width: 60vw;
+    border-radius:150px 150px 0px 0px;
+}
+
+.subtitulo{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p{
+    text-align: justify;
+    margin: 0 40px;
+}
+
+.link{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 77px 0px 5px 90%;
+    font-weight: 600;
+}
+.link:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+.conteudo{
+    background-color: white;
+    padding-bottom: 35px;
+    border-radius: 0 0 20px 20px;
+}
