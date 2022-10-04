@@ -1,0 +1,60 @@
+.filmes{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(7, 7, 123);
+    color: white;
+    width: 100%;
+    padding: 50px;
+}
+.titulo{
+    margin-top: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+.subtitulo{
+    margin-top: -30px;
+    font-weight: 300;
+    font-family: monospace;
+    text-align: center;
+}
+.deslog{
+    color: rgb(252, 184, 184);
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -30px;
+}
+.deslog:hover{
+    cursor: pointer;
+    color: red;
+}
+.secao{
+    padding: 15px;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.img{
+    height: 900px;
+    width: 100%;
+}
+.botaoFilmes{
+display: flex;
+width: 100%;
+padding: 15px;
+margin-top: -4px;
+border: none;
+background-color: white;
+font-family: monospace;
+font-size: 20px;
+}
+.botaoFilmes:hover {
+    cursor: pointer;
+    color: rgb(29, 78, 141);
+}
+.link:hover{
+    color: rgb(29, 78, 141);
+}
