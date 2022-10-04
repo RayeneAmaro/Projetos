@@ -1,0 +1,7 @@
+UseContext para 'autenticar' o usuário (por enquanto estático ainda)
+Rotas {BrowserRouter, Routes, Route}
+Navigate
+API --- axios e fetch
+
+Site de filmes, ao logar ele redireciona para o painel do usuário com os filmes disponíveis para assistir e detalhes do filme.
+Caso o usuário esteja incorreto é emitido um alerta e assim não é possível entrar.
