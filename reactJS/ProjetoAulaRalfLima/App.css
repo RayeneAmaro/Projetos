@@ -1,0 +1,36 @@
+.form-control{
+    width: 50%;
+    height: 50px;
+}
+
+.btn{
+    margin: 0.5%;
+    height: 60px;
+    width: 10vw;
+    font-size: 1rem;
+}
+
+.form{
+    margin: 5% 0 5% 25%;
+}
+
+.pesquisa{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    height: 70px;
+    text-align: center;
+}
+
+.tabela{
+    border: none;
+    color: blue;
+    font-weight: 600;
+    font-family: monospace;
+}
+.tabela:hover{
+    color: red;
+}
+
+.secao{
+    height: 70px;
+}
