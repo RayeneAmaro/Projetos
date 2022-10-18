@@ -1,1 +1,0 @@
-Utilizando ReactJS, CSS, Bootstrap, Hooks
